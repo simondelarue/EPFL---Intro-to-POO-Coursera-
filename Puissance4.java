@@ -1,3 +1,5 @@
+package Java_exercises;
+
 import java.util.Scanner;
 /*
 Test de correction via Git.
