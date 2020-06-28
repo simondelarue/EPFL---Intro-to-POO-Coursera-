@@ -1,4 +1,8 @@
 import java.util.Scanner;
+/*
+Test de correction via Git.
+Ceci est écrit sur la branche dev du clone en local.
+*/
 
 public class Puissance4 {
 
