@@ -16,6 +16,12 @@ abstract class Employe {
         age = unAge;
         dateArrivee = uneDate;
     }
+    public int getAge(){
+        return age;
+    }
+    public String getDateArrivee(){
+        return dateArrivee;
+    }
 
     public String getTitre(){
         return "L'employé ";
