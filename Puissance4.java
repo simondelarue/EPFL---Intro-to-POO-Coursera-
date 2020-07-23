@@ -2,8 +2,7 @@ package Java_exercises;
 
 import java.util.Scanner;
 /*
-Test de correction via Git.
-Ceci est écrit sur la branche dev du clone en local.
+Je Modifie un fichier dans le clone Git local
 */
 
 public class Puissance4 {
