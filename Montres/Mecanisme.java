@@ -1,4 +1,4 @@
-package montres;
+package Java_exercises.Montres;
 
 abstract class Mecanisme extends Produit {
 	
@@ -30,7 +30,7 @@ abstract class Mecanisme extends Produit {
 	protected abstract String toStringType();
 	
 	public final String toString(){
-		String result = "mécanisme ";
+		String result = "mï¿½canisme ";
 		result += toStringType();
 		result += " (affichage : ";
 		result += toStringCadran();

@@ -1,4 +1,4 @@
-package montres;
+package Java_exercises.Montres;
 
 abstract class Produit {
 
@@ -7,8 +7,8 @@ abstract class Produit {
 	public Produit(double uneValeur){
 		valeur = uneValeur;
 	}
-	// Surcharge du constructeur pour affecter une valeur par défaut
-	// La valeur d'un produit est initialisée par défaut à 0
+	// Surcharge du constructeur pour affecter une valeur par dï¿½faut
+	// La valeur d'un produit est initialisï¿½e par dï¿½faut ï¿½ 0
 	public Produit(){
 		valeur = 0.0;
 	}
@@ -18,10 +18,10 @@ abstract class Produit {
 		valeur = autre.valeur;
 	}
 	
-	// Méthode polymorphique de copie
+	// Mï¿½thode polymorphique de copie
 	public abstract Produit copie();
 	
-	// Méthode de calcul du prix. Le prix d'un produit sera fonction du type de produit.
+	// Mï¿½thode de calcul du prix. Le prix d'un produit sera fonction du type de produit.
 	public double prix(){
 		return valeur;
 	}

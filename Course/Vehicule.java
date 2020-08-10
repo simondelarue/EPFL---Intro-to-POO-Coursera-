@@ -1,4 +1,4 @@
-package main;
+package Java_exercises.Course;
 
 public class Vehicule {
 	private String nom;

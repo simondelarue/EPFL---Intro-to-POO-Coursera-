@@ -1,4 +1,4 @@
-package main;
+package Java_exercises.Course;
 
 public class Voiture extends Vehicule {
 	private String categorie;

@@ -1,4 +1,4 @@
-package demenagement;
+package Java_exercises.Demenagement;
 
 abstract class Item {
 

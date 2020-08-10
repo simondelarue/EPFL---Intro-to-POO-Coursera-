@@ -1,4 +1,4 @@
-package Figures;
+package Java_exercises.Figures;
 
 public class RectangleColore extends Rectangle {
     private int couleur;

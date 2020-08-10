@@ -1,4 +1,4 @@
-package montres;
+package Java_exercises.Montres;
 
 abstract class Accessoire extends Produit {
 
@@ -19,7 +19,7 @@ abstract class Accessoire extends Produit {
 	
 	@Override
 	public String toString(){
-		String res = nom + " coûtant ";
+		String res = nom + " coï¿½tant ";
 		res += super.toString();
 		return res;
 	}

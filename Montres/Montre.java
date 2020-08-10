@@ -1,14 +1,14 @@
-package montres;
+package Java_exercises.Montres;
 
 import java.util.ArrayList;
 
 public class Montre extends Produit {
 
-	// Une montre possède un mécanisme et des accessoires
+	// Une montre possï¿½de un mï¿½canisme et des accessoires
 	private Mecanisme coeur;
 	private ArrayList<Accessoire> accessoires;
 	
-	// Constructeur par défaut pour initialiser la liste d'accessoires
+	// Constructeur par dï¿½faut pour initialiser la liste d'accessoires
 	public Montre(Mecanisme depart) {
 		coeur = depart.copie();
 		accessoires = new ArrayList<Accessoire>();
@@ -37,12 +37,12 @@ public class Montre extends Produit {
 		return new Montre(this);
 	}
 
-	// Methode permettant d'ajouter un accessoire à une montre
+	// Methode permettant d'ajouter un accessoire ï¿½ une montre
 	public void ajouterAccessoire(Accessoire acc){
 		accessoires.add(acc.copie());
 	}
 	
-	// Calcul du prix d'une montre (= somme des prix des accessoires + prix du mécanisme + prix de base)
+	// Calcul du prix d'une montre (= somme des prix des accessoires + prix du mï¿½canisme + prix de base)
 	@Override
 	public double prix(){
 		double res = super.prix() + coeur.prix();
@@ -53,7 +53,7 @@ public class Montre extends Produit {
 	}
 	
 	public void afficher(){
-		System.out.println("Une montre composée de : ");
+		System.out.println("Une montre composï¿½e de : ");
 		System.out.println(" * " + coeur);
 		for (Accessoire a : accessoires){
 			System.out.println(" * " + a);

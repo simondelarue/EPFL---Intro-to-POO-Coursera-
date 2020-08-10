@@ -1,4 +1,4 @@
-package montres;
+package Java_exercises.Montres;
 
 public class MecanismeAnalogique extends Mecanisme {
 

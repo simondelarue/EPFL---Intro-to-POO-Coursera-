@@ -1,10 +1,10 @@
-package montres;
+package Java_exercises.Montres;
 
 public class MontresMain {
 
 	public static void main(String[] args) {
 		
-		// Test première version
+		// Test premiï¿½re version
 		/*
 		Montre m = new Montre();
 		m.ajouterAccessoire(new Bracelet("cuir", 54.0));
@@ -16,7 +16,7 @@ public class MontresMain {
 		m.afficher();
 		*/
 		
-		// Test deuxième version
+		// Test deuxiï¿½me version
 		MecanismeAnalogique v1 = new MecanismeAnalogique(312.00, 20201212);
 		MecanismeDigital v2 = new MecanismeDigital(32.00, "11:45", "7:00");
 		MecanismeDouble v3 = new MecanismeDouble(543.00, "8:20", 20191012, "6:30");

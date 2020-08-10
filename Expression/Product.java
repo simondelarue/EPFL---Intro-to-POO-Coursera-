@@ -1,4 +1,4 @@
-package expression;
+package Java_exercises.Expression;
 
 public class Product extends BinOp {
 

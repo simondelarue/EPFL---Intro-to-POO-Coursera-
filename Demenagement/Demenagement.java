@@ -1,4 +1,4 @@
-package demenagement;
+package Java_exercises.Demenagement;
 
 class Demenagement
 {
@@ -17,7 +17,7 @@ class Demenagement
 		}
 	}
 	public void afficher(){
-		System.out.println("Les objets de mon déménagement sont : ");
+		System.out.println("Les objets de mon dï¿½mï¿½nagement sont : ");
 		for (int i=0; i<=index; i++){
 			cartons[i].afficher();
 		}

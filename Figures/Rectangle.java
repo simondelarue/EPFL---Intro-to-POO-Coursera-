@@ -1,4 +1,4 @@
-package Figures;
+package Java_exercises.Figures;
 
 public class Rectangle extends Figure {
     private double largeur;

@@ -1,4 +1,4 @@
-package montres;
+package Java_exercises.Montres;
 
 public class MecanismeDouble extends MecanismeAnalogique implements ReveilDigital {
 
@@ -32,7 +32,7 @@ public class MecanismeDouble extends MecanismeAnalogique implements ReveilDigita
 	
 	@Override
 	protected String toStringCadran(){
-		String result = "sur l'écran : ";
+		String result = "sur l'ï¿½cran : ";
 		result += super.toStringCadran();
 		result += ", sous les aiguilles : ";
 		result += toStringReveil();
@@ -40,7 +40,7 @@ public class MecanismeDouble extends MecanismeAnalogique implements ReveilDigita
 	}
 	
 	public String toStringReveil(){
-		return " réveil " + reveil;
+		return " rï¿½veil " + reveil;
 	}
 
 }

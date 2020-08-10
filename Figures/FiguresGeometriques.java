@@ -1,4 +1,4 @@
-package Figures;
+package Java_exercises.Figures;
 
 public class FiguresGeometriques {
     public static void main(String[] args) {

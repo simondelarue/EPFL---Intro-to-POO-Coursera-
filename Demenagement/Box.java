@@ -1,4 +1,4 @@
-package demenagement;
+package Java_exercises.Demenagement;
 
 public class Box extends Item {
 

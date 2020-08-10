@@ -1,4 +1,4 @@
-package montres;
+package Java_exercises.Montres;
 
 public class MecanismeDigital extends Mecanisme implements ReveilDigital  {
 
@@ -26,7 +26,7 @@ public class MecanismeDigital extends Mecanisme implements ReveilDigital  {
 	}
 	
 	public String toStringReveil(){
-		return " réveil " + reveil;
+		return " rï¿½veil " + reveil;
 	}
 	@Override
 	protected String toStringCadran(){
